@@ -1,0 +1,1 @@
+image_path;template_window;search_window;noise_reduction;color_noirse_reduction;
