@@ -14,8 +14,7 @@ A modelleket egy `Tkinter` keretrendszerben készült grafikus felülettel lehet
 
 ## Használat
 1. Anaconda Prompt-on belül lépjünk a repository gyökérkönyvtárába.
-2. Aktiváljuk a viruális környezetet. (`conda activate thesisenv`)
-3. Indítsuk a GUI-t `start.bat` paranccsal.
+2. Indítsuk a GUI-t `start.bat` paranccsal.
 
 # :uk:
 This repository contains the project for my thesis called **Software Development in Deep Learning Systems - Protection of Neural Networks**
@@ -33,5 +32,4 @@ You can try them out with a GUI made in `Tkinter`. Noise reduction can be applie
 
 ## Usage
 1. In Anaconda Prompt navigate to the root of the repo.
-2. Activate virutal environment. (`conda activate thesisenv`)
-3. Run GUI with `start.bat`.
+2. Run GUI with `start.bat`.
