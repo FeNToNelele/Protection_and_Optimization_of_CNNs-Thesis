@@ -9,8 +9,8 @@ A modelleket egy `Tkinter` keretrendszerben készült grafikus felülettel lehet
 - Anaconda Prompt: a virtuális környezet felállításához.
 
 ## Virtuális környezet telepítése
-1. Anaconda Prompt-on belül lépjünk a repo gyökérkönyvtárába.
-2. Futtassuk a `conda env create -f ./venv/venv.yaml` parancsot. Ekkor létrejön theisenv néven a virtuális környezet
+1. Anaconda Prompt-on belül lépjünk a repository gyökérkönyvtárába.
+2. Futtassuk a `conda env create -f ./venv/venv.yaml` parancsot. Ekkor létrejön `theisenv` néven a virtuális környezet
 
 ## Használat
 1. Anaconda Prompt-on belül lépjünk a repository gyökérkönyvtárába.
@@ -27,8 +27,8 @@ You can try them out with a GUI made in `Tkinter`. Noise reduction can be applie
 - Anaconda Prompt: to create virtual environment.
 
 ## Installation of virtual environment
-1. In Anaconda Prompt navigate to the root of the repo.
-2. Run `conda env create -f ./venv/venv.yaml`. The virtual environment is created under name theisenv.
+1. In Anaconda Prompt navigate to the root of the repository.
+2. Run `conda env create -f ./venv/venv.yaml`. The virtual environment is created under name `theisenv`.
 
 ## Usage
 1. In Anaconda Prompt navigate to the root of the repo.
