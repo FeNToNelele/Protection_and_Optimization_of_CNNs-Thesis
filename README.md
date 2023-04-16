@@ -1,5 +1,5 @@
 # :hungary:
-Ez a repository tartalmazza szakdolgozatom programját, melynek címe: **Szoftverfejlesztés Deep Learning rendszerekben - A neurális hálózatok védelme**
+Ez a repository tartalmazza szakdolgozatom programját, melynek címe: **Konvolúciós neurális hálózatok védelme és optimalizálása**
 
 A repo több `TensorFlow`-ban készült konvolúciós modellt mutat be. Céljuk annak bemutatása, hogy milyen módszerekkel lehet a neurális hálózatokat robosztusabbá tenni, azaz hogy érjük el, hogy zajos vagy megtévesztő képekkel szemben is helyesen klasszifikáljon.
 
@@ -17,19 +17,19 @@ A modelleket egy `Tkinter` keretrendszerben készült grafikus felülettel lehet
 2. Indítsuk a GUI-t `start.bat` paranccsal.
 
 # :uk:
-This repository contains the project for my thesis called **Software Development in Deep Learning Systems - Protection of Neural Networks**
+This repository contains the project for my thesis titled **Protection and Optimization of Convolutional Neural Networks**
 
-This repo has multiple CNNs made in `TensorFlow`. Their goal is to represent how we can achieve robustness in neural networks, so it still classifies correctly when they meet with noisy or misleading pictures.
+The repository has multiple CNNs made in `TensorFlow`. The purpose of these CNNS is to represent how robustness can be achieved in neural networks, enabling them to correctly classify images even in the presence of noise or misleading visual cues.
 
-You can try them out with a GUI made in `Tkinter`. Noise reduction can be applied to your own images optinally, so you are also a part of this research.
+You can try them out with a GUI made in `Tkinter`. Optionally, you can also apply noise reduction, making you a part of the research.
 
-# Prerequisite
-- Anaconda Prompt: to create virtual environment.
+# Prerequisites
+- Anaconda Prompt: for creating the virtual environment.
 
 ## Installation of virtual environment
 1. In Anaconda Prompt navigate to the root of the repository.
-2. Run `conda env create -f ./venv/venv.yaml`. The virtual environment is created under name `theisenv`.
+2. Run `conda env create -f ./venv/venv.yaml` to create a virtual environment named `theisenv`.
 
 ## Usage
-1. In Anaconda Prompt navigate to the root of the repo.
-2. Run GUI with `start.bat`.
+1. In Anaconda Prompt navigate to the root of the repository.
+2. Run the GUI using `start.bat`.
