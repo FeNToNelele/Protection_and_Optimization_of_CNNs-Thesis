@@ -672,7 +672,11 @@ def predict():
         tkinter.messagebox.showerror("Error", "Please load a model.")
     denoise_image()
 
-    config = model.get_config()
+    if (model_choice == "single"):
+        config = model.get_config()
+    else:
+        config = ensemble_models[0].get_config()
+
     width, height = list(config["layers"][0]["config"]["batch_input_shape"])[1:3]
 
     input_image = tf.image.resize(denoised_image, (width, height))
@@ -727,6 +731,9 @@ def predict_with_ensemble_models(input_image):
 
     for model in ensemble_models:
         yhats.append(model.predict(np.expand_dims(input_image / 255, 0)).tolist()[0])
+
+    for yhat in yhats:
+        print(yhat)
 
     yhat_maximum = yhats[0][0]
     yhat_maximum_index = 0
